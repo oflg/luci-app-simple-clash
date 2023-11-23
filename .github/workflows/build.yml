@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       PACKAGE_NAME: luci-app-simple-clash
-      SDK_URL_PATH: https://downloads.openwrt.org/snapshots/targets/x86/64
+      SDK_URL_PATH: https://downloads.immortalwrt.org/snapshots/targets/x86/64
       SDK_NAME: -sdk-x86-64_
     steps:
       - uses: actions/checkout@v2
